@@ -40,4 +40,4 @@ jobs:
     - name: Black check
       run : |
         pip install black
-        black --check
+        black --check .
